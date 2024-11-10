@@ -41,6 +41,50 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "zzz",
+      "image": "",
+      "price": 23,
+      "id": 8
+    },
+    {
+      "name": "rms",
+      "image": "",
+      "price": 30,
+      "id": 9
+    },
+    {
+      "name": "sd",
+      "image": "",
+      "price": 56,
+      "id": 10
+    },
+    {
+      "name": "hr",
+      "image": "./images/mr.jpg",
+      "price": 50,
+      "id": 11
+    },
+    {
+      "name": "kijabe",
+      "image": "./images/sr.jpg",
+      "price": 35,
+      "id": 12
+    },
+    {
+      "name": "tony",
+      "image": "./images/dr.jpg",
+      "price": 77,
+      "inStock": true,
+      "id": 13
+    },
+    {
+      "name": "hibiscus",
+      "image": "./images/mr.jpg",
+      "price": 34,
+      "inStock": true,
+      "id": 14
     }
   ]
 }
