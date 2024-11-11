@@ -12,6 +12,8 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "server": "json-server --watch db.json -p 6001",
     "test": "jest --bail"
