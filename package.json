@@ -1,8 +1,10 @@
 {
   "name": "react-hooks-mock-code-challenge-plantshop",
   "version": "0.1.0",
+  "homepage": "https://github.io/Nattyprofessor/react-hooks-cc-plantshop",
   "private": true,
   "dependencies": {
+    "gh-pages": "^6.2.0",
     "json-server": "^0.16.3",
     "node-fetch": "^2.7.0",
     "react": "^17.0.1",
@@ -44,6 +46,8 @@
       "<rootDir>/jest.setup.js"
     ],
     "testEnvironment": "jsdom",
-    "testPathIgnorePatterns": ["/test_suites"]
+    "testPathIgnorePatterns": [
+      "/test_suites"
+    ]
   }
 }
