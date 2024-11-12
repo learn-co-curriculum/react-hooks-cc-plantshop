@@ -1,7 +1,7 @@
 {
   "name": "react-hooks-mock-code-challenge-plantshop",
   "version": "0.1.0",
-  "homepage": "https://github.io/Nattyprofessor/react-hooks-cc-plantshop",
+  "homepage": "https://Nattyprofessor.github.io/react-hooks-cc-plantshop",
   "private": true,
   "dependencies": {
     "json-server": "^0.16.3",
@@ -10,14 +10,14 @@
     "react-dom": "^17.0.1",
     "react-scripts": "^5.0.1"
   },
- "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "server": "json-server --watch db.json -p 6001",
-  "test": "jest --bail"
-},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "server": "json-server --watch db.json -p 6001",
+    "test": "jest --bail"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
