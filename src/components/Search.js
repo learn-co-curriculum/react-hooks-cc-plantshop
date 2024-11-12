@@ -9,6 +9,7 @@ function Search({ searchTerm, onSearchChange }) {
         // id="search"
         // placeholder="Type a name to search..."
         value={searchTerm}
+        
         onChange={(e) => onSearchChange(e.target.value)}
       />
     </div>
