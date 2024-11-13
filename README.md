@@ -1,6 +1,5 @@
 # Phase 2 Code Challenge: Plantsy
 
-## Demo
 
 Use this gif as an example of how the app should work.
 
@@ -148,3 +147,30 @@ Example Response:
 ```json
 {}
 ```
+### Features
+Add New Plants: Users can add new plants to the store with details such as name, image URL, and price.
+Search Plants: The app allows users to search for plants by name.
+Mark Sold Out: Users can mark plants as sold out or available.
+Delete Plants: Users can delete plants from the store.
+Responsive Design: The app is mobile-friendly, displaying plant cards in a grid that adjusts for different screen sizes.
+Backend Integration: Uses JSON Server to simulate a backend and store plant data.
+
+### Development
+If you want to contribute or develop further features, follow these steps:
+
+Fork the repository.
+Create a new branch: git checkout -b feature-name.
+Commit your changes: git commit -m "Your commit message".
+Push to your branch: git push origin feature-name.
+Open a pull request with a description of your changes.
+
+
+### Technologies Used
+React: Frontend framework for building the UI.
+JSON Server: Backend API for handling requests and persisting data.
+CSS: Custom styles provided for a clean interface.
+
+### Acknowledgments
+React - Frontend library for building user interfaces.
+JSON Server - Fake API server for development.
+

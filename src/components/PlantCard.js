@@ -1,17 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 
-function PlantCard() {
+function PlantCard({ plant, onDelete, onMarkSoldOut }) {
+  const [isSoldOut, setIsSoldOut] = useState(plant.soldOut || false);
+
+  const handleSoldOutClick = () => {
+    setIsSoldOut(!isSoldOut);
+    onMarkSoldOut(plant.id); // Calls the passed function from the parent
+  };
+
+  const handleDelete = () => {
+    onDelete(plant.id); // Calls the delete function from the parent
+  };
+
   return (
-    <li className="card" data-testid="plant-item">
-      <img src={"https://via.placeholder.com/400"} alt={"plant name"} />
-      <h4>{"plant name"}</h4>
-      <p>Price: {"plant price"}</p>
-      {true ? (
-        <button className="primary">In Stock</button>
-      ) : (
-        <button>Out of Stock</button>
-      )}
-    </li>
+    <div className="card">
+      <img src={plant.image} alt={plant.name} />
+      <h2>{plant.name}</h2>
+      <p>Price: ${plant.price}</p>
+      <button onClick={handleSoldOutClick}>
+        {isSoldOut ? "Mark as Available" : "Mark as Sold Out"}
+      </button>
+      <button onClick={handleDelete}>Delete</button>
+    </div>
   );
 }
 
