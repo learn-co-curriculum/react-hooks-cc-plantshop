@@ -6,10 +6,12 @@ import Search from "./Search";
 function PlantPage() {
   const [plants, setPlants] = useState([]);
   const [search, setSearch] = useState("");
+  
+  const API_URL = 'https://my-json-server.typicode.com/Nattyprofessor/react-hooks-cc-plantshop';
 
   useEffect(() => {
     // Fetch initial plant data
-    fetch("http://localhost:6001/plants")
+    fetch(`${API_URL}/plants`)
       .then((response) => response.json())
       .then((data) => setPlants(data))
       .catch((error) => console.error("Error fetching plants:", error));
