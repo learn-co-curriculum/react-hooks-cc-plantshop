@@ -1,6 +1,5 @@
 :root {
   --green: rgb(39, 189, 39);
-
 }
 
 * {
@@ -14,6 +13,7 @@
 
 body {
   font-family: "Playfair Display", serif;
+   
   
 }
 
@@ -149,4 +149,9 @@ input:focus {
   .card {
     width: calc(20% - 2rem);
   }
+}
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
 }

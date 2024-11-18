@@ -12,6 +12,7 @@ function PlantPage() {
     const fetchPlants = async () => {
       try {
         const response = await fetch("http://localhost:3000/plants");
+
         if (!response.ok) {
           throw new Error("Failed to fetch plants");
         }
