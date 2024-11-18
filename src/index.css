@@ -6,10 +6,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: burlywood;
+  border-radius: 15px;
+
 }
 
 body {
   font-family: "Playfair Display", serif;
+   
+  
 }
 
 h2 {
@@ -21,6 +26,10 @@ button {
   font-family: inherit;
   border: none;
   cursor: pointer;
+  background-color: red;
+  color: black;
+  
+  
 }
 
 button.primary {
@@ -55,11 +64,15 @@ main {
   padding: 2rem 1rem;
   margin: 2rem 0;
   background-color: rgba(181, 250, 181, 0.5);
+
+ 
+
 }
 
 .new-plant-form form {
   display: flex;
   justify-content: center;
+
 }
 
 .new-plant-form input {
@@ -69,12 +82,14 @@ main {
 
 .new-plant-form button {
   width: 150px;
+  
 }
 
 .searchbar {
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  
 }
 
 label {
@@ -134,4 +149,9 @@ input:focus {
   .card {
     width: calc(20% - 2rem);
   }
+}
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
 }
